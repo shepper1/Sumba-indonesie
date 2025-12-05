@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carte du voyage - undefined</title>
+  <style>
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    #map { height: 100vh; width: 100%; }
+    .info-window { max-width: 250px; font-family: Arial, sans-serif; }
+    .info-window img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px; }
+    .info-window h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
+    .info-window p { margin: 5px 0; font-size: 14px; color: #666; }
+    .info-window a { color: #1a73e8; text-decoration: none; }
+    .info-window a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <script>
+    function initMap() {
+      const center = { lat: -2.0386997999999985, lng: 123.05453558333335 };
+      const map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: center
+      });
+      
+      const markers = [{"lat":-9.4295733,"lng":119.2387484,"name":"Tambolaka, Sumba Ouest","jour":1,"titre":"Arrivée à Sumba Ouest : Premiers Pas en Terre Authentique","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-9.4295733,119.2387484&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-9.4295733,119.2387484","aiImageUrl":"jour1.jpg"},{"lat":-9.699343899999999,"lng":119.9740534,"name":"Sumba Ouest","jour":2,"titre":"Lagons Turquoises et Plages Secrètes","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-9.699343899999999,119.9740534&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-9.699343899999999,119.9740534","aiImageUrl":"jour2.jpg"},{"lat":-9.4157057,"lng":119.240483,"name":"Sumba Centre / Est","jour":5,"titre":"Traversée vers l'Est et Panoramas Époustouflants","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-9.4157057,119.240483&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-9.4157057,119.240483","aiImageUrl":"jour5.jpg"},{"lat":-9.6646545,"lng":120.2498483,"name":"Waingapu, Sumba Est","jour":6,"titre":"Mangroves et Couchers de Soleil Magiques","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-9.6646545,120.2498483&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-9.6646545,120.2498483","aiImageUrl":"jour6.jpg"},{"lat":-9.699343899999999,"lng":119.9740534,"name":"Sumba Est","jour":7,"titre":"Savanes Infinies et Artisanat Local","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-9.699343899999999,119.9740534&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-9.699343899999999,119.9740534","aiImageUrl":"jour7.jpg"},{"lat":35.6764225,"lng":139.650027,"name":"Tokyo, Japon","jour":11,"titre":"Arrivée à Tokyo","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.6764225,139.650027&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6764225,139.650027","aiImageUrl":"jour11.jpg"}];
+      
+      markers.forEach((markerData) => {
+        const marker = new google.maps.Marker({
+          position: { lat: markerData.lat, lng: markerData.lng },
+          map: map,
+          title: markerData.name,
+          label: String(markerData.jour)
+        });
+        
+        const contentString = `
+          <div class="info-window">
+            <img src="${markerData.streetViewUrl}" alt="Street View de ${markerData.name}" />
+            <h3>Jour ${markerData.jour}</h3>
+            <p><strong>${markerData.name}</strong></p>
+            <p><a href="${markerData.streetViewLinkUrl}" target="_blank" rel="noopener noreferrer"><strong>${markerData.titre}</strong></a></p>
+          </div>
+        `;
+        
+        const infoWindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        
+        marker.addListener('click', () => {
+          infoWindow.open(map, marker);
+        });
+      });
+    }
+  </script>
+  
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q&callback=initMap">
+  </script>
+</body>
+</html>
