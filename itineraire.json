@@ -1,0 +1,346 @@
+{
+  "pays": "Indonésie",
+  "drapeau": "🇮🇩",
+  "symbole": "🌴",
+  "titre": "Sumba : L'Âme Sauvage de l'Archipel Indonésien",
+  "budget_total": "2400€/pers",
+  "duree": "11 jours uniquement",
+  "temps_vol": "environ 12-15h (escales incluses)",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "🛬",
+      "titre": "Arrivée à Sumba Ouest : Premiers Pas en Terre Authentique",
+      "legende": "Après un long voyage depuis Tokyo, vous atterrissez à Tambolaka, porte d'entrée de Sumba Ouest. Prenez le temps de vous installer et de vous imprégner de l'atmosphère paisible de l'île. La journée est dédiée au repos et à une découverte légère des environs immédiats, pour une transition douce vers l'aventure.",
+      "lieu": "Tambolaka, Sumba Ouest",
+      "activites": [
+        "🛬 <strong>Arrivée à Tambolaka (TMC)</strong>: Atterrissage à l'aéroport de Tambolaka, point de départ de votre exploration de Sumba. Un chauffeur vous attendra pour vous conduire à votre hébergement, marquant le début de votre immersion.",
+        "🛏️ <strong>Installation et Repos</strong>: Prenez possession de votre chambre et détendez-vous après le vol. Profitez de l'après-midi pour vous rafraîchir et vous acclimater au climat tropical de Sumba."
+      ],
+      "illustration": "sumba_jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "À savoir",
+          "texte": "Les vols intérieurs vers Sumba (Tambolaka ou Waingapu) partent généralement de Denpasar (Bali) ou Jakarta. Prévoyez une escale confortable."
+        },
+        {
+          "symbole": "🚗",
+          "titre": "Transport",
+          "texte": "Un chauffeur privé est fortement recommandé pour se déplacer à Sumba, les transports publics étant limités et les routes parfois difficiles."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "🌊",
+      "titre": "Lagons Turquoises et Plages Secrètes",
+      "legende": "Aujourd'hui, l'Ouest de Sumba révèle ses trésors naturels. Vous découvrirez des lagons d'eau salée aux couleurs irréelles et des plages immaculées, loin des foules. C'est une journée dédiée à la baignade, à la détente et à l'émerveillement devant la beauté brute de l'île. Préparez-vous à des paysages dignes de cartes postales.",
+      "lieu": "Sumba Ouest",
+      "activites": [
+        "💧 <strong>Lagon de Weekuri</strong>: Nagez dans ce lagon d'eau salée naturel, séparé de l'océan par une fine bande de rochers. Ses eaux cristallines et calmes en font un lieu idéal pour la baignade et la photographie.",
+        "🏖️ <strong>Plage de Mandorak</strong>: Explorez cette crique isolée, nichée entre des falaises imposantes. La plage de sable blanc et les eaux turquoise offrent un cadre parfait pour la détente et l'exploration."
+      ],
+      "illustration": "sumba_jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "☀️",
+          "titre": "Protection Solaire",
+          "texte": "Le soleil à Sumba peut être intense. N'oubliez pas crème solaire, chapeau et lunettes de soleil, surtout lors des baignades."
+        },
+        {
+          "symbole": "🚶‍♂️",
+          "titre": "Accès",
+          "texte": "L'accès à Weekuri et Mandorak nécessite de marcher un peu sur des chemins non goudronnés, prévoyez des chaussures confortables."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "🗿",
+      "titre": "Villages Mégalithiques et Côte Sauvage",
+      "legende": "Plongez au cœur de la culture Sumbanaise en visitant des villages traditionnels où le temps semble s'être arrêté. Admirez les maisons aux toits coniques et les tombes mégalithiques ancestrales. L'après-midi, la côte sauvage de Sumba vous attend avec ses plages battues par les vagues, offrant un contraste saisissant.",
+      "lieu": "Sumba Ouest",
+      "activites": [
+        "🏘️ <strong>Village de Ratenggaro</strong>: Découvrez ce village unique avec ses 14 maisons traditionnelles aux toits très hauts et ses impressionnantes tombes mégalithiques face à l'océan. C'est un témoignage vivant de la culture Marapu.",
+        "🏖️ <strong>Plage de Pero</strong>: Observez les pêcheurs locaux et leurs bateaux colorés sur cette plage animée. C'est également un bon spot pour admirer le coucher de soleil et l'activité locale."
+      ],
+      "illustration": "sumba_jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "🙏",
+          "titre": "Respect Culturel",
+          "texte": "Lors des visites de villages, il est d'usage de faire un petit don et de demander la permission avant de prendre des photos des habitants."
+        },
+        {
+          "symbole": "🎁",
+          "titre": "Artisanat Local",
+          "texte": "Les villages sont d'excellents endroits pour acheter de l'ikat, le tissu traditionnel sumbanais, directement auprès des artisans."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "🏞️",
+      "titre": "Cascades et Rizières en Terrasses",
+      "legende": "Aujourd'hui, l'intérieur des terres de Sumba se dévoile avec ses paysages verdoyants. Vous explorerez une majestueuse cascade où vous pourrez vous rafraîchir, puis visiterez un autre village traditionnel niché au milieu des rizières. C'est une journée qui allie la beauté naturelle et l'immersion culturelle, loin des sentiers battus.",
+      "lieu": "Sumba Ouest",
+      "activites": [
+        "💦 <strong>Cascade de Lapopu</strong>: Randonnez à travers la forêt luxuriante pour atteindre cette magnifique cascade à plusieurs niveaux. Profitez d'une baignade rafraîchissante dans ses bassins naturels.",
+        "🏘️ <strong>Village de Praijing</strong>: Perché sur une colline, ce village offre une vue imprenable sur les rizières en terrasses et la vallée environnante. Ses maisons traditionnelles sont parfaitement conservées et accessibles."
+      ],
+      "illustration": "sumba_jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "👟",
+          "titre": "Chaussures",
+          "texte": "Prévoyez des chaussures de marche confortables pour la randonnée vers la cascade de Lapopu, le chemin peut être glissant."
+        },
+        {
+          "symbole": "💧",
+          "titre": "Hydratation",
+          "texte": "Emportez suffisamment d'eau, surtout lors des excursions dans les terres, où la chaleur peut être plus intense."
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "🛣️",
+      "titre": "Traversée vers l'Est et Panoramas Époustouflants",
+      "legende": "Une journée de transition vous attend, vous menant de l'Ouest verdoyant vers les paysages plus arides et vallonnés de l'Est de Sumba. La route elle-même est une invitation à la découverte, ponctuée de panoramas à couper le souffle. Vous terminerez la journée par un coucher de soleil mémorable sur l'une des célèbres collines de l'île.",
+      "lieu": "Sumba Centre / Est",
+      "activites": [
+        "🚗 <strong>Traversée de Sumba</strong>: Profitez du trajet pour admirer les paysages changeants, des rizières aux savanes. C'est une immersion dans la diversité géographique de Sumba.",
+        "🌄 <strong>Coucher de soleil à Wairinding Hill</strong>: Gravissez cette colline emblématique pour assister à un coucher de soleil spectaculaire sur les vallons verdoyants. Les couleurs du ciel et des paysages sont inoubliables."
+      ],
+      "illustration": "sumba_jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "📸",
+          "titre": "Photographie",
+          "texte": "Wairinding Hill est un spot photographique incontournable, surtout au lever et au coucher du soleil pour ses jeux de lumière."
+        },
+        {
+          "symbole": "🗺️",
+          "titre": "Préparation",
+          "texte": "La traversée prend plusieurs heures, assurez-vous d'avoir des en-cas et de l'eau pour le trajet."
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": "🌅",
+      "titre": "Mangroves et Couchers de Soleil Magiques",
+      "legende": "L'Est de Sumba révèle un autre visage, avec ses plages bordées de mangroves et ses collines offrant des vues imprenables. La journée est rythmée par la découverte de ces écosystèmes uniques et se termine par un coucher de soleil emblématique. C'est une journée de contemplation et de connexion avec la nature sumbanaise.",
+      "lieu": "Waingapu, Sumba Est",
+      "activites": [
+        "🌅 <strong>Plage de Walakiri</strong>: Célèbre pour ses arbres de mangrove dansants, cette plage est un lieu magique au coucher du soleil. Les silhouettes des arbres se découpent sur un ciel enflammé, offrant un spectacle unique.",
+        "⛰️ <strong>Colline de Tenau</strong>: Profitez d'une vue panoramique sur la côte et les environs de Waingapu depuis cette colline. C'est un excellent point d'observation pour apprécier l'étendue des paysages de l'Est."
+      ],
+      "illustration": "sumba_jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "⏰",
+          "titre": "Timing",
+          "texte": "Arrivez à Walakiri environ une heure avant le coucher du soleil pour profiter pleinement de l'évolution des couleurs et des lumières."
+        },
+        {
+          "symbole": "🦟",
+          "titre": "Moustiques",
+          "texte": "Prévoyez un répulsif anti-moustiques, surtout en fin de journée près des zones humides comme les mangroves."
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "🐎",
+      "titre": "Savanes Infinies et Artisanat Local",
+      "legende": "Aujourd'hui, l'immensité des savanes de Sumba s'offre à vous, un paysage aride et majestueux où paissent les célèbres chevaux sumbanais. Vous visiterez également un village réputé pour son artisanat, en particulier le tissage de l'ikat. C'est une journée qui célèbre la nature sauvage et le savoir-faire ancestral de l'île.",
+      "lieu": "Sumba Est",
+      "activites": [
+        "🐎 <strong>Exploration des Savanes de Puru Kambera</strong>: Traversez ces vastes étendues herbeuses, où vous pourrez apercevoir les chevaux sauvages de Sumba. Le paysage est d'une beauté austère et captivante.",
+        "🏘️ <strong>Village de Prailiang</strong>: Découvrez ce village traditionnel perché, connu pour ses maisons aux toits pointus et son artisanat textile. Vous pourrez observer les femmes tisser l'ikat, un art ancestral."
+      ],
+      "illustration": "sumba_jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "🎁",
+          "titre": "Souvenirs",
+          "texte": "L'ikat de Sumba est un souvenir précieux et authentique. Chaque motif raconte une histoire et est unique à la famille ou au village."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Interaction",
+          "texte": "N'hésitez pas à engager la conversation avec les habitants (avec l'aide de votre guide si nécessaire), ils sont souvent très accueillants."
+        }
+      ]
+    },
+    {
+      "jour": 8,
+      "symbole": "💦",
+      "titre": "Chutes d'Eau Secrètes et Plages Isolées",
+      "legende": "L'Est de Sumba recèle des trésors cachés, comme des cascades rafraîchissantes accessibles après une petite marche. L'après-midi, vous vous dirigerez vers une plage isolée, parfaite pour la baignade et la détente loin de toute agitation. C'est une journée d'exploration et de sérénité, au cœur d'une nature préservée.",
+      "lieu": "Sumba Est",
+      "activites": [
+        "💧 <strong>Cascade de Tanggedu</strong>: Partez à l'aventure pour découvrir cette magnifique cascade cachée dans la verdure. Une courte randonnée vous mènera à ses bassins où vous pourrez vous baigner et vous rafraîchir.",
+        "🏖️ <strong>Plage de Puru Kambera</strong>: Détendez-vous sur cette longue plage de sable blanc, souvent déserte. Les eaux calmes sont idéales pour la baignade et la tranquillité, offrant un cadre idyllique."
+      ],
+      "illustration": "sumba_jour8.jpg",
+      "encarts": [
+        {
+          "symbole": "🎒",
+          "titre": "Équipement",
+          "texte": "Prévoyez un maillot de bain, une serviette et des chaussures d'eau pour la cascade de Tanggedu."
+        },
+        {
+          "symbole": "♻️",
+          "titre": "Environnement",
+          "texte": "Aidez à préserver la beauté de Sumba en ne laissant aucune trace de votre passage et en rapportant vos déchets."
+        }
+      ]
+    },
+    {
+      "jour": 9,
+      "symbole": "🛍️",
+      "titre": "Marchés Locaux et Détente",
+      "legende": "Profitez de cette dernière journée complète à Sumba pour vous immerger dans la vie locale. Visitez le marché de Waingapu, où les couleurs et les saveurs de l'île prennent vie. L'après-midi est libre pour la détente, les derniers achats ou simplement pour savourer l'ambiance unique de Sumba avant votre départ. C'est une journée pour recharger vos batteries et faire le plein de souvenirs.",
+      "lieu": "Waingapu, Sumba Est",
+      "activites": [
+        "🛍️ <strong>Marché de Waingapu</strong>: Flânez dans le marché local, un festival de couleurs et d'odeurs. C'est l'occasion de découvrir les produits frais, les épices et l'artisanat local, et d'observer le quotidien des Sumbanais.",
+        "💆‍♀️ <strong>Détente et Préparation</strong>: Profitez de l'après-midi pour vous reposer, faire quelques derniers achats de souvenirs ou simplement vous détendre à votre hébergement. Préparez vos affaires pour le départ le lendemain."
+      ],
+      "illustration": "sumba_jour9.jpg",
+      "encarts": [
+        {
+          "symbole": "💰",
+          "titre": "Négociation",
+          "texte": "Au marché, la négociation est une pratique courante et fait partie de l'expérience, mais toujours avec le sourire et respect."
+        },
+        {
+          "symbole": "🌶️",
+          "titre": "Gastronomie",
+          "texte": "Goûtez aux spécialités locales vendues au marché, comme les fruits exotiques ou les snacks traditionnels."
+        }
+      ]
+    },
+    {
+      "jour": 10,
+      "symbole": "✈️",
+      "titre": "Départ de Sumba : Envol vers de Nouveaux Horizons",
+      "legende": "C'est le moment de dire au revoir à Sumba, cette île aux charmes authentiques et aux paysages époustouflants. Après un petit-déjeuner tranquille, votre chauffeur vous conduira à l'aéroport de Waingapu pour votre vol retour. Emportez avec vous les souvenirs inoubliables de cette aventure indonésienne. Le voyage se poursuit avec les escales nécessaires avant le retour au Japon.",
+      "lieu": "Waingapu, Sumba Est",
+      "activites": [
+        "✈️ <strong>Transfert à l'aéroport de Waingapu (WGP)</strong>: Votre chauffeur vous mènera à l'aéroport pour votre vol. Assurez-vous d'arriver avec une marge suffisante pour les formalités d'enregistrement.",
+        "👋 <strong>Vol retour Sumba - Tokyo</strong>: Embarquement pour votre vol, marquant la fin de votre exploration de Sumba. Le voyage de retour inclura des escales, comme à Denpasar ou Jakarta."
+      ],
+      "illustration": "sumba_jour10.jpg",
+      "encarts": [
+        {
+          "symbole": "✅",
+          "titre": "Check-list",
+          "texte": "Vérifiez bien que vous n'avez rien oublié à votre hôtel avant de partir pour l'aéroport."
+        },
+        {
+          "symbole": "🧳",
+          "titre": "Bagages",
+          "texte": "Respectez les limites de poids des bagages pour les vols intérieurs, qui peuvent être plus strictes que pour les vols internationaux."
+        }
+      ]
+    },
+    {
+      "jour": 11,
+      "symbole": "🛬",
+      "titre": "Arrivée à Tokyo",
+      "legende": "Après un voyage aérien incluant des escales, vous atterrissez à Tokyo, ramenant avec vous des souvenirs impérissables de Sumba. Le contraste entre la sérénité de l'île indonésienne et l'effervescence de la capitale japonaise sera saisissant. C'est la fin de votre aventure, la tête pleine d'images et de nouvelles expériences.",
+      "lieu": "Tokyo, Japon",
+      "activites": [
+        "🛬 <strong>Arrivée à Tokyo (NRT/HND)</strong>: Atterrissage à l'aéroport de Tokyo après votre long voyage. Récupérez vos bagages et passez les formalités douanières.",
+        "🏡 <strong>Retour à votre domicile</strong>: Prenez les transports nécessaires pour rentrer chez vous, clôturant ainsi votre magnifique périple à Sumba."
+      ],
+      "illustration": "tokyo_jour11.jpg",
+      "encarts": [
+        {
+          "symbole": "🛂",
+          "titre": "Douanes",
+          "texte": "Préparez vos documents de voyage et de douane pour faciliter votre entrée au Japon."
+        },
+        {
+          "symbole": "😴",
+          "titre": "Repos",
+          "texte": "Prévoyez une journée de repos après ce long voyage pour récupérer du décalage horaire et de la fatigue accumulée."
+        }
+      ]
+    }
+  ],
+  "detail_budget": [
+    {
+      "titre": "Budget vol:",
+      "legende": "850€/pers (Vol Tokyo-Sumba A/R avec escales)",
+      "symbole": "🛬"
+    },
+    {
+      "titre": "Budget transports:",
+      "legende": "400€/pers (Location voiture avec chauffeur pour 8 jours sur Sumba, transferts inclus)",
+      "symbole": "🚗"
+    },
+    {
+      "titre": "Budget repas:",
+      "legende": "350€/pers (10 jours de repas, mix de warungs locaux et restaurants)",
+      "symbole": "🥗"
+    },
+    {
+      "titre": "Budget logement:",
+      "legende": "630€/pers (9 nuits en hébergement de gamme moyenne)",
+      "symbole": "🛏️"
+    },
+    {
+      "titre": "Budget activités:",
+      "legende": "150€/pers (Entrées sites, donations villages, petites activités)",
+      "symbole": "🎭"
+    }
+  ],
+  "periodes_ideales": [
+    {
+      "titre": "Les périodes idéales pour ce séjour sont les mois de mai à octobre (saison sèche), avec une préférence pour mai-juin et septembre-octobre pour éviter la haute saison.",
+      "symbole": "☀️"
+    }
+  ],
+  "infos_pratiques": [
+    {
+      "titre": "La monnaie locale est la Roupie Indonésienne (IDR). Les cartes de crédit sont acceptées dans les grands hôtels, mais le liquide est essentiel pour les marchés et petits commerces. Prévoyez des petites coupures.",
+      "symbole": "💳"
+    },
+    {
+      "titre": "Le permis de conduire international est recommandé si vous louez un scooter, mais un chauffeur est préférable pour explorer Sumba. La conduite est à gauche.",
+      "symbole": "🚗"
+    },
+    {
+      "titre": "La couverture réseau peut être limitée dans certaines zones reculées de Sumba. Une carte SIM locale (Telkomsel est la plus fiable) ou une eSIM est conseillée pour rester connecté.",
+      "symbole": "📶"
+    },
+    {
+      "titre": "Respectez les coutumes locales, en particulier dans les villages traditionnels. Habillez-vous modestement (épaules et genoux couverts) et demandez toujours la permission avant de photographier les habitants.",
+      "symbole": "🙏"
+    }
+  ],
+  "liens_utiles": [
+    {
+      "legende": "Informations générales sur l'Indonésie",
+      "titre": "Indonésie Tourisme",
+      "url": "https://www.indonesia.travel/",
+      "symbole": "📘"
+    },
+    {
+      "legende": "Prévisions météo locales",
+      "titre": "Météo Sumba",
+      "url": "https://www.accuweather.com/fr/id/sumba/204273/weather-forecast/204273",
+      "symbole": "🌤️"
+    },
+    {
+      "legende": "Informations sur les vols intérieurs",
+      "titre": "Traveloka (vols Indonésie)",
+      "url": "https://www.traveloka.com/en-id/flight",
+      "symbole": "✈️"
+    }
+  ]
+}
